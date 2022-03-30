@@ -1,1 +1,0 @@
-/Users/davidwjberry/GitHub/RevatureKotlin_WeeklyCoding/build/classes/kotlin/main/Challenge_2022Feb23$josephus$predicate$1.class:/Users/davidwjberry/GitHub/RevatureKotlin_WeeklyCoding/build/classes/kotlin/main/Challenge_2022Feb23.class:/Users/davidwjberry/GitHub/RevatureKotlin_WeeklyCoding/build/classes/kotlin/main/MainKt.class
