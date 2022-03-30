@@ -1,14 +1,19 @@
-package challenge_2022mar28
+package lockers
 
-object Challenge_2022Mar28 {
+/**
+ * David Berry
+ * Solution to the weekly coding challenge of week 28 March 2022
+ */
+
+object LockersSolution {
 
     override fun toString(): String {
         super.toString()
-        val str : String = "Open lockers: " + compute()
-        return str
+        System.out.println("Open lockers: " + compute())
+        return "2022 March 28 Weekly Coding Challenge"
     }
 
-    fun compute() : Int {
+    private fun compute() : Int {
         var lockers : BooleanArray = BooleanArray(100)
         for (num in lockers.indices) {
             lockers[num] = false

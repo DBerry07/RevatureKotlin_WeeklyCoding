@@ -1,6 +1,11 @@
-package challenge_2022feb23
+package josephus
 
-object Challenge_2022Feb23 {
+/**
+ * David Berry
+ * Solution to the weekly coding challenge of week 23 February 2022
+ */
+
+object JosephusSolution {
 
     override fun toString(): String {
         super.toString()

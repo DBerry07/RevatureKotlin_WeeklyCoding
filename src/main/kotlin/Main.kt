@@ -1,14 +1,18 @@
-import challenge_2022feb23.Challenge_2022Feb23
+import josephus.JosephusSolution as feb23
+import lockers.LockersSolution as mar28
 
 fun main(args: Array<String>) {
-    val emptyString : String = ""
-    val sep : String = emptyString.padEnd(10, '-')
+
+    val sep : String = String().padEnd(10, '-')
 
     println("Hello World!")
     println("Program arguments: ${args.joinToString()}")
 
-    println(sep)
-    Challenge_2022Feb23.toString()
+    System.out.println(sep)
+    feb23.toString()
 
-    println(sep)
+    System.out.println(sep)
+    mar28.toString()
+
+    System.out.println(sep)
 }
