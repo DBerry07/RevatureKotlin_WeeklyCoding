@@ -9,10 +9,10 @@ fun main(args: Array<String>) {
     println("Program arguments: ${args.joinToString()}")
 
     System.out.println(sep)
-    feb23.toString()
+    feb23.solve()
 
     System.out.println(sep)
-    mar28.toString()
+    mar28.solve()
 
     System.out.println(sep)
 }

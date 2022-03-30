@@ -7,7 +7,7 @@ package josephus
 
 object JosephusSolution {
 
-    override fun toString(): String {
+    fun solve() : String {
         super.toString()
         System.out.println("Josephus Circle")
         System.out.println("Size 41, interval 3: " + josephus(41, 3))

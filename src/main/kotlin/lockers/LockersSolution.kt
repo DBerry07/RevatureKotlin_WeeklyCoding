@@ -7,7 +7,7 @@ package lockers
 
 object LockersSolution {
 
-    override fun toString(): String {
+    fun solve(): String {
         super.toString()
         System.out.println("Open lockers: " + compute())
         return "2022 March 28 Weekly Coding Challenge"
