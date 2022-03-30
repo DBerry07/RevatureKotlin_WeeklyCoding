@@ -1,3 +1,5 @@
+package challenge_2022feb23
+
 object Challenge_2022Feb23 {
 
     override fun toString(): String {
