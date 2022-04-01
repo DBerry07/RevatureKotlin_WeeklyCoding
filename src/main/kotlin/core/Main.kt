@@ -2,6 +2,7 @@ import josephus.JosephusSolution as feb23
 import lockers.LockersSolution as mar28
 import fibonacci.FibonacciSolution as mar07
 import product.ProductSolution as mar02
+import listandstack.ListAndStackSolution as mar14
 
 fun main(args: Array<String>) {
     //println("Hello World!")
@@ -21,6 +22,9 @@ fun main(args: Array<String>) {
 
     println(sep)
     mar07.solve()
+
+    println(sep)
+    mar14.solve()
 
     println(sep)
     mar28.solve()
