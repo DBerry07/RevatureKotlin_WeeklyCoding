@@ -1,6 +1,6 @@
 package lockers
 
-import ChallengeSolution
+import core.ChallengeSolution
 
 /**
  * David Berry

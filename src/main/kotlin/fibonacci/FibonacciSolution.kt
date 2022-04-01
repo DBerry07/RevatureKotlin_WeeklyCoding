@@ -1,6 +1,6 @@
 package fibonacci
 
-import ChallengeSolution
+import core.ChallengeSolution
 
 object FibonacciSolution : ChallengeSolution() {
 

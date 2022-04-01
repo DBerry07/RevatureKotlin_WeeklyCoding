@@ -1,6 +1,6 @@
 package josephus
 
-import ChallengeSolution
+import core.ChallengeSolution
 
 /**
  * David Berry

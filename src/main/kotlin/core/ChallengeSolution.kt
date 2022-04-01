@@ -1,3 +1,5 @@
+package core
+
 abstract class ChallengeSolution {
 
     public abstract fun solve();

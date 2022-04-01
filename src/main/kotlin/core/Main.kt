@@ -17,13 +17,13 @@ fun main(args: Array<String>) {
     feb23.solve()
 
     println(sep)
-    mar28.solve()
+    mar02.solve()
 
     println(sep)
     mar07.solve()
 
     println(sep)
-    mar02.solve()
+    mar28.solve()
 
     println(sep)
     println("END OF PROGRAM")

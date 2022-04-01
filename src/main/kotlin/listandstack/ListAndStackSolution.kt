@@ -1,6 +1,6 @@
 package listandstack
 
-import ChallengeSolution
+import core.ChallengeSolution
 
 object ListAndStackSolution : ChallengeSolution() {
 
