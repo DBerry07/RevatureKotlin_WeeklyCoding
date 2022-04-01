@@ -10,6 +10,7 @@ import ChallengeSolution
 object LockersSolution : ChallengeSolution() {
 
     public override fun solve() {
+        println("LOCKERS")
         println("Open lockers: " + compute())
     }
 

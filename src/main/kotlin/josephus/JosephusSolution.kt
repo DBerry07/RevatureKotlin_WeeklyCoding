@@ -10,8 +10,7 @@ import ChallengeSolution
 object JosephusSolution : ChallengeSolution() {
 
     public override fun solve() {
-        super.toString()
-        println("Josephus Circle")
+        println("JOSEPHUS CIRCLE")
         println("Size 41, interval 3: " + josephus(41, 3))
         println("Size 35, interval 11: " + josephus(35, 11))
         println("Size 11, interval 1: " + josephus(11, 1))
