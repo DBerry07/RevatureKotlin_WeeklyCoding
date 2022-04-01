@@ -1,20 +1,21 @@
 package josephus
 
+import ChallengeSolution
+
 /**
  * David Berry
  * Solution to the weekly coding challenge of week 23 February 2022
  */
 
-object JosephusSolution {
+object JosephusSolution : ChallengeSolution() {
 
-    fun solve() : String {
+    public override fun solve() {
         super.toString()
-        System.out.println("Josephus Circle")
-        System.out.println("Size 41, interval 3: " + josephus(41, 3))
-        System.out.println("Size 35, interval 11: " + josephus(35, 11))
-        System.out.println("Size 11, interval 1: " + josephus(11, 1))
-        System.out.println("Size 2, interval 2: " + josephus(2, 2))
-        return "2022 February 23 Weekly Coding Challenge"
+        println("Josephus Circle")
+        println("Size 41, interval 3: " + josephus(41, 3))
+        println("Size 35, interval 11: " + josephus(35, 11))
+        println("Size 11, interval 1: " + josephus(11, 1))
+        println("Size 2, interval 2: " + josephus(2, 2))
     }
 
     private fun josephus(circleSize : Int, interval : Int) : Int {

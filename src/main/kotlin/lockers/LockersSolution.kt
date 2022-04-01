@@ -1,16 +1,16 @@
 package lockers
 
+import ChallengeSolution
+
 /**
  * David Berry
  * Solution to the weekly coding challenge of week 28 March 2022
  */
 
-object LockersSolution {
+object LockersSolution : ChallengeSolution() {
 
-    fun solve(): String {
-        super.toString()
-        System.out.println("Open lockers: " + compute())
-        return "2022 March 28 Weekly Coding Challenge"
+    public override fun solve() {
+        println("Open lockers: " + compute())
     }
 
     private fun compute() : Int {
