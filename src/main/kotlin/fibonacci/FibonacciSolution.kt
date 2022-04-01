@@ -1,0 +1,4 @@
+package fibonacci
+
+class FibonacciSolution {
+}
