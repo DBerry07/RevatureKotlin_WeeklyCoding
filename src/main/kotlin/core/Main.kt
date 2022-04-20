@@ -3,6 +3,7 @@ import lockers.LockersSolution as mar28
 import fibonacci.FibonacciSolution as mar07
 import product.ProductSolution as mar02
 import listandstack.ListAndStackSolution as mar14
+import projectdependencies.ProjectDependenciesSolution as apr18
 
 fun main(args: Array<String>) {
     //println("Hello World!")
@@ -28,6 +29,9 @@ fun main(args: Array<String>) {
 
     println(sep)
     mar28.solve()
+
+    println(sep)
+    apr18.solve()
 
     println(sep)
     println("END OF PROGRAM")
