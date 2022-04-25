@@ -4,6 +4,7 @@ import fibonacci.FibonacciSolution as mar07
 import product.ProductSolution as mar02
 import listandstack.ListAndStackSolution as mar14
 import projectdependencies.ProjectDependenciesSolution as apr18
+import robot.RobotSolution as apr25
 
 fun main(args: Array<String>) {
     //println("Hello World!")
@@ -32,6 +33,9 @@ fun main(args: Array<String>) {
 
     println(sep)
     apr18.solve()
+
+    println(sep)
+    apr25.solve()
 
     println(sep)
     println("END OF PROGRAM")

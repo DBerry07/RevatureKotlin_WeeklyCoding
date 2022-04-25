@@ -2,6 +2,8 @@ package core
 
 abstract class ChallengeSolution {
 
+    public val tab = "   "
+
     public abstract fun solve();
 
     public fun println(str : String) : Boolean {
