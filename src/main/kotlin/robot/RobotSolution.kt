@@ -4,7 +4,7 @@ import core.ChallengeSolution
 
 object RobotSolution: ChallengeSolution() {
 
-    val tag = tab + "ROBOT >> "
+    val tag = tab + "robot >> "
     val SIZE = 10
     var robotPos = Pair(0, 0)
     val grid : Array<IntArray> = Array(SIZE) {IntArray(SIZE) {0} }
