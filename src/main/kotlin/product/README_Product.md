@@ -1,4 +1,4 @@
-# Revature Weekly Coding Challenge: 2 March 2022
+# Revature Weekly Coding Challenge: 02 March 2022
 ## Product of Digits Sum
 Revature Bench weekly coding exercise for March 02, 2022.
 
