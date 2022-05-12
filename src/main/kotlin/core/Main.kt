@@ -6,6 +6,7 @@ import listandstack.ListAndStackSolution as mar14
 import projectdependencies.ProjectDependenciesSolution as apr18
 import robot.RobotSolution as apr2501
 import robot.RobotPathfindingSolution as apr2502
+import listandloop.ListAndLoopSolution as may02
 
 fun main(args: Array<String>) {
     //println("Hello World!")
@@ -39,6 +40,11 @@ fun main(args: Array<String>) {
     apr2502.solve()
 
     println(sep)
+    may02.solve()
+
+    println(sep)
     println("END OF PROGRAM")
+
+
 
 }
